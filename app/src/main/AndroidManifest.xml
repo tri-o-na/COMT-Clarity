@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.edu.tp.clarity3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Clarity3">
+        <activity android:name=".UserGuide"
+            android:parentActivityName=".Albums" />
+        <activity android:name=".Favourites"
+            android:parentActivityName=".Albums" />
+        <activity
+            android:name=".Playlists"
+            android:parentActivityName=".Albums" />
+        <activity android:name=".AllSongs"
+            android:parentActivityName=".Albums" />
+        <activity android:name=".AlbumHeavenHell3" />
+        <activity android:name=".AlbumDivide4" />
+        <activity android:name=".AlbumGloryDays2" />
+        <activity
+            android:name=".LatestAlbum"
+            android:parentActivityName=".Albums" />
+        <activity android:name=".Albums" />
+        <activity android:name=".LaunchScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlaySongActivity" />
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".Albums" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

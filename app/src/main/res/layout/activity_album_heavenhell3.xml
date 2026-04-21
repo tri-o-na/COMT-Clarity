@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumHeavenHell3">
+
+    <ImageButton
+        android:id="@+id/S1001"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#032F47"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1016"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/so_am_i" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="So Am I"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste1"
+        app:layout_constraintTop_toTopOf="@+id/S1001" />
+
+    <TextView
+        android:id="@+id/txtArtiste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="185dp"
+        android:fontFamily="casual"
+        android:text="Ava Max"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle1" />
+
+    <ImageButton
+        android:id="@+id/S1016"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1017"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1001"
+        app:srcCompat="@drawable/my_head_n_my_heart" />
+
+    <TextView
+        android:id="@+id/txtArtiste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Ava Max"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle2"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="casual"
+        android:text="My Head and My Heart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1016"
+        app:layout_constraintTop_toTopOf="@+id/S1016" />
+
+    <ImageButton
+        android:id="@+id/S1017"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="42dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1018"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1016"
+        app:srcCompat="@drawable/kings_n_queens" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="casual"
+        android:text="Kings and Queens"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste3"
+        app:layout_constraintTop_toTopOf="@+id/S1017" />
+
+    <TextView
+        android:id="@+id/txtArtiste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="185dp"
+        android:fontFamily="casual"
+        android:text="Ava Max"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1017"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle3" />
+
+    <ImageButton
+        android:id="@+id/S1018"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/teal_200"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1019"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1017"
+        app:srcCompat="@drawable/omg_whats_happening" />
+
+    <TextView
+        android:id="@+id/txtTitle9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:fontFamily="casual"
+        android:text="OMG What's Happening"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste9"
+        app:layout_constraintTop_toTopOf="@+id/S1018" />
+
+    <TextView
+        android:id="@+id/txtArtiste9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="185dp"
+        android:fontFamily="casual"
+        android:text="Ava Max"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1018"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle9" />
+
+    <ImageButton
+        android:id="@+id/S1019"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="181dp"
+        android:backgroundTint="@color/black"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1018"
+        app:srcCompat="@drawable/salt" />
+
+    <TextView
+        android:id="@+id/txtTitle19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="casual"
+        android:text="Salt"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1019" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/S1019"
+        app:layout_constraintStart_toEndOf="@+id/S1019" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

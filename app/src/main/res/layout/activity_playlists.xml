@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Playlists">
+
+    <ImageButton
+        android:id="@+id/playlist1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#D09BDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_library_music_24"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/playlist2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#D09BDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlist3"
+        app:srcCompat="@drawable/ic_baseline_library_music_24"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/playlist3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#D09BDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlist4"
+        app:srcCompat="@drawable/ic_baseline_library_music_24"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/playlist4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#D09BDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlist5"
+        app:srcCompat="@drawable/ic_baseline_library_music_24"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/playlist5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#D09BDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlist1"
+        app:srcCompat="@drawable/ic_baseline_library_music_24"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/adamina"
+        android:text="Playlist 1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/playlist1"
+        app:layout_constraintTop_toTopOf="@+id/playlist1" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/adamina"
+        android:text="Playlist 2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/playlist5"
+        app:layout_constraintTop_toTopOf="@+id/playlist5" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/adamina"
+        android:text="Playlist 5"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/playlist2"
+        app:layout_constraintStart_toEndOf="@+id/playlist2" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/adamina"
+        android:text="Playlist 4"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/playlist3"
+        app:layout_constraintTop_toTopOf="@+id/playlist3" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/adamina"
+        android:text="Playlist 3"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/playlist4"
+        app:layout_constraintTop_toTopOf="@+id/playlist4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

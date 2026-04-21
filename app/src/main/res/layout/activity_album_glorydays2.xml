@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumGloryDays2">
+
+    <ImageButton
+        android:id="@+id/S1012"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#411C34"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1013"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reggaeton_lento" />
+
+    <TextView
+        android:id="@+id/txtTitle9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:fontFamily="casual"
+        android:text="Reggaeton Lento"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste12"
+        app:layout_constraintTop_toTopOf="@+id/S1012" />
+
+    <TextView
+        android:id="@+id/txtArtiste12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1012"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle9" />
+
+    <ImageButton
+        android:id="@+id/S1013"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1014"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1012"
+        app:srcCompat="@drawable/power" />
+
+    <TextView
+        android:id="@+id/txtTitle13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Power"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste13"
+        app:layout_constraintTop_toTopOf="@+id/S1013" />
+
+    <TextView
+        android:id="@+id/txtArtiste13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1013"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle13" />
+
+    <ImageButton
+        android:id="@+id/S1014"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#F7F5ED"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1015"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1013"
+        app:srcCompat="@drawable/no_more_sad_songs" />
+
+    <TextView
+        android:id="@+id/txtTitle14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="79dp"
+        android:fontFamily="casual"
+        android:text="No More Sad Songs"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1014"
+        app:layout_constraintTop_toTopOf="@+id/S1014" />
+
+    <TextView
+        android:id="@+id/txtArtiste14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle14"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle14" />
+
+    <ImageButton
+        android:id="@+id/S1015"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="28dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1010"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1014"
+        app:srcCompat="@drawable/oops" />
+
+    <TextView
+        android:id="@+id/txtTitle15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="casual"
+        android:text="Oops"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste15"
+        app:layout_constraintTop_toTopOf="@+id/S1015" />
+
+    <TextView
+        android:id="@+id/txtArtiste15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1015"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle15" />
+
+    <ImageButton
+        android:id="@+id/S1010"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#F2C7E2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1011"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1015"
+        app:srcCompat="@drawable/shout_out_to_my_ex" />
+
+    <TextView
+        android:id="@+id/txtTitle10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="casual"
+        android:text="Shout Out To My Ex"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste10"
+        app:layout_constraintTop_toTopOf="@+id/S1010" />
+
+    <TextView
+        android:id="@+id/txtArtiste10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1010"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle10" />
+
+    <ImageButton
+        android:id="@+id/S1011"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="125dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1010"
+        app:srcCompat="@drawable/touch" />
+
+    <TextView
+        android:id="@+id/txtTitle11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Touch"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtArtiste11"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste11" />
+
+    <TextView
+        android:id="@+id/txtArtiste11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="casual"
+        android:text="Little Mix"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/S1011"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S1011" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

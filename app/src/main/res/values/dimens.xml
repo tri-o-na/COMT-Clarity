@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin" />
+    <dimen name="activity_horizontal_margin" />
+    <dimen name="dots_height" />
+    <dimen name="dots_margin_bottom" />
+    <dimen name="img_width_height" />
+    <dimen name="desc_padding" />
+</resources>
